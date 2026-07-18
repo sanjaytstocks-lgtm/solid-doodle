@@ -1,5 +1,25 @@
-.venv/
-.env
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+.venv/
+
+# Secrets
+.env
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+
+# IDE
 .vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
